@@ -1,0 +1,59 @@
+## sources of failure
+and how to minimize them
+
+- overheating
+- wifi drop
+run test to identify which wifi dongles are best
+set up test at e.g. microcenter
+2 chipsets were best:
+ateros and realtek with antennna
+allows for extended and directed antenna
+write watchdog function
+
+- sd card fail
+- enclosure - moisture
+- power / battery fail
+
+## bmp180 connected to raspberry pi via i2c
+
+https://learn.adafruit.com/using-the-bmp085-with-raspberry-pi/configuring-the-pi-for-i2c
+
+## making a new raspberry pi startup disk 
+
+## connecting to raspberry pi
+
+sudo apt-get install screen
+
+## configuring i2c on raspbian
+
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
+
+## modifying the grove pi install script so that serial is not disabled
+
+http://www.dexterindustries.com/forum/?topic=usb-serial-adapter-and-groovepi
+
+install script is itself useful-looking:
+https://github.com/DexterInd/GrovePi/blob/master/Script/install.sh
+
+## monitor voltage on solar charger
+
+## projects
+
+- electric fence monitoring
+- tapping into coolbot -- temperature sensors -- hi / low / shutoff
+- germination chamber
+
+- compost monitoring
+- fans + o2 sensor -- irrigation
+- greenhouse and freezer temps
+- freezer monitoring  
+- electric fence
+- water levels - animal water out in the field
+-- solar power + wifi
+
+solar power in the field 
+ 
+## look up the LDOs and switching circuitry on ebay as per fastie's project for rpi
+
+
+
